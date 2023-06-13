@@ -1,1 +1,0 @@
-"c:\Windows\SysWOW64\regsvr32.exe"  "D:\Renner\Autoit\autoit\AutoItX\AutoItX3_x64.dll"

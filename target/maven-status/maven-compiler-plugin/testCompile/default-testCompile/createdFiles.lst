@@ -1,0 +1,9 @@
+Requests\SetenviromentEntregueTotal.class
+Steps\BrokerSteps.class
+OMSBase\GlobalParameters.class
+OMSBase\OMSBody.class
+Requests\Broker.class
+Core\BaseTest.class
+Core\Constantes.class
+Runner\RunnerRennerBRTest.class
+OMSBase\BaseRest.class
