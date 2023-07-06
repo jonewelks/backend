@@ -106,12 +106,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>4.1.4</version>
-        </dependency>
-
-        <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.4.1</version>
@@ -148,15 +142,6 @@
     </dependencies>
 
 
-
-    <profiles>
-        <profile>
-            <id>run-test</id>
-            <properties>
-                <test.ambiente>dev</test.ambiente>
-            </properties>
-        </profile>
-    </profiles>
 
 
 </project>

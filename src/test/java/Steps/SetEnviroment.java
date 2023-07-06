@@ -2,18 +2,16 @@ package Steps;
 
 import Core.BaseTest;
 
-public class SetEnviromentSicred {
+public class SetEnviroment {
     private String url;
     private String urlBase;
-    private String token;
-    private String typeAutorization;
     private BaseTest baseTest = new BaseTest();
 
-    public SetEnviromentSicred(){
+    public SetEnviroment(){
 
         System.out.println(System.getProperty("test.ambiente"));
         switch(System.getProperty("test.ambiente")){
-            case "sicred":
+            case "getNet":
                 urlBase = this.baseTest.getSetupProperty("base.url");
                 break;
         }
@@ -23,7 +21,9 @@ public class SetEnviromentSicred {
         this.url = new StringBuilder()
                 .append(urlBase)
                 .toString();
+        System.out.println(url);
         return this.url;
+
     }
 
 }

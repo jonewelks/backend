@@ -17,8 +17,8 @@ public class MyStepDefinitions {
 
     private Response response;
     protected Map<String, Object> headers = new HashMap<String, Object>();
-    SetEnviromentSicred ambiente = new SetEnviromentSicred();
-    private String env = ambiente.baseUrl();
+    SetEnviroment ambiente = new SetEnviroment();
+     String env = ambiente.baseUrl();
 
     @Given("I set the headers")
     public void setHeaders() {

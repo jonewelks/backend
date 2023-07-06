@@ -1,9 +1,9 @@
-Requests\SetenviromentEntregueTotal.class
-Steps\BrokerSteps.class
-OMSBase\GlobalParameters.class
-OMSBase\OMSBody.class
-Requests\Broker.class
+Steps\SetEnviroment.class
+Base\GlobalParameters.class
+Base\BaseRest.class
+Base\Token.class
 Core\BaseTest.class
 Core\Constantes.class
-Runner\RunnerRennerBRTest.class
-OMSBase\BaseRest.class
+Runner\Runner.class
+Steps\MyStepDefinitions.class
+report\CucumberReport.class

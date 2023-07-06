@@ -7,13 +7,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/Sicred.feature",
-        glue = "SicredSteps",
+        features = "src/test/resources/features/GetNet.feature",
+        glue = "MyStepDefinitions",
         tags = "",
         plugin = {
                 "pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         }
 )
-public class RunnerSicred {
+public class Runner {
 }
